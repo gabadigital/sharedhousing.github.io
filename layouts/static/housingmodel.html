@@ -1,0 +1,22 @@
+
+{{define "main" }}
+  <div data-w-id="c68ed30d-1f09-2dc0-c01f-84f78cc585a0" class="section pages">
+
+  {{ partial "nav" . }}
+
+      <div id="w-node-95983cfb0687-58d4a54b" class="blue pages"></div>
+      <div id="w-node-5ce18d161ea2-58d4a54b" class="frontpage_div subpages">
+        <div class="div-block-11">
+        <h1 class="toph1 toppages">{{.Params.topheading}}</h1>
+        <p>{{.Content}}</p>
+      </div>
+      </div>
+
+
+    {{partial "socials" . }}
+    <div id="w-node-a062623e5fe0-ee863df1" class="white_logocover"></div>
+  </div>
+
+
+  {{ partial "footerscript" . }}
+{{end}}

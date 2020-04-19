@@ -1,0 +1,31 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+
+#Menu config file all put here
+[menu]
+  [[menu.mainmenu]]
+   identifier="Founders"
+    name="Founders"
+    url = "/founders"
+    weight = 2
+
+  [[menu.mainmenu]]
+     identifier="Housingmodel"
+      name="Housing Model"
+      url = "/Housingmodel"
+      weight = 3
+
+  [[menu.mainmenu]]
+         identifier="Application"
+          name="Application"
+          url = "/application"
+          weight = 3
+
+
+#Logo put here
+[params.logo]
+  [[params.logo.item]]
+  logo = "logo.svg"
+  alt= "Shared Housing Logo"
+  URL =""

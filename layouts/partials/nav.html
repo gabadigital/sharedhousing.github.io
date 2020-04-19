@@ -1,0 +1,27 @@
+<div id="w-node-6af2baf2de9d-58d4a54b" class="navbarwrapper">
+  <div data-collapse="medium" data-animation="default" data-duration="400" data-doc-height="1" class="navbar-2 w-nav">
+    <nav role="navigation" class="nav-menu w-nav-menu">
+      <div class="div-block-15">
+
+        {{ range .Site.Menus.mainmenu }}
+        <a data-w-id="d6f9c097-7448-0832-ae39-f5a80d07584f" href="{{ .URL }}" class="nav-link w-inline-block">
+          <div>{{.Name}}</div>
+          <div class="line_btn"></div>
+        </a>
+        {{ end }}
+      </div>
+      <div class="div-block-17"><a href="#" class="nav-link call w-nav-link">+1 760-907-9068</a></div>
+    </nav>
+    <div class="menu-button w-nav-button">
+      <div class="materialtxt">󰍜</div>
+    </div>
+  </div>
+</div>
+
+
+
+
+{{ range .Site.Params.logo.item}}
+<div  id="w-node-14774657ae8c-ee863df1" style="opacity:0" class="logo_wrap"><a href=" /{{.URL}} " aria-current="page" class="w-inline-block w--current"><img src="/images/{{.logo}}" alt="{{.alt}}"></a></div>
+
+{{end}}
