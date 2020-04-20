@@ -1,6 +1,7 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
+relativeURLs = true
 
 #Menu config file all put here
 [menu]
