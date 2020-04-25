@@ -9,7 +9,7 @@ collections:
     files:
       - label: "housingmodel"
         name: "housingmodel"
-        file: "site/content/housingmodel.yml"
+        file: "site/content/housingmodel.md"
         fields:
           - {label: Title, name: title, widget: string}
           - {label: Intro, name: intro, widget: markdown}
