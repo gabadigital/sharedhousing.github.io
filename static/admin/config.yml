@@ -4,8 +4,8 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
-  - label: "founders"
-    name: "founders"
+  - name: "founders"
+    label: "founders"
     folder: "content/founders-content"
     fields:
           - {label: name, name:name, widget:string}
