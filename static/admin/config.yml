@@ -4,11 +4,11 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
-  - label: 'founders-content'
-    name: 'founders-content'
-    folder: 'content/founders-content'
+  - label: "founders-content"
+    name: "founders-content"
+    folder: "content/founders-content"
         fields:
-          - {label: 'Body', name: 'body', widget:'markdown' }
+          - {label: Body, name:body, widget:markdown}
 
   - label: "Pages"
     name: "pages"
