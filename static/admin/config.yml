@@ -4,6 +4,13 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
+  - label: 'founders-content'
+    name: 'founders-content'
+    folder: 'content/founders-content'
+    create: true
+        fields:
+          - {label: 'Body', name: 'body', widget:'markdown' }
+
   - label: "Pages"
     name: "pages"
     files:
@@ -25,11 +32,3 @@ collections:
           - {label: Text Header, name: topheading, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Description, name: description, widget: string}
-
-    - label: 'Founders'
-      name: 'Founders'
-      folder: 'content/founders-content'
-      create: true
-          fields:
-            - {label: 'headless', name:'headless', widget:boolean, defaults:true }
-            - {label: 'Body', name: 'body', widget:'markdown' }
