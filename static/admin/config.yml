@@ -5,6 +5,7 @@ media_folder: static/images
 public_folder: /images
 collections:
   - name: "founders"
+    identifier_field: name
     label: "founders"
     folder: "content/founders-content"
     create: true
