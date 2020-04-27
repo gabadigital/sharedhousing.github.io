@@ -7,9 +7,10 @@ collections:
   - name: "founders"
     label: "founders"
     folder: "content/founders-content"
+    create: true
     fields:
-          - {label: name, name:name, widget:string}
-          - {label: Body, name:body, widget:markdown}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Body", name:"body", widget:"markdown"}
   - label: "Pages"
     name: "pages"
     files:
