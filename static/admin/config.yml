@@ -7,7 +7,7 @@ collections:
   - label: "founders-content"
     name: "founders-content"
     folder: "content/founders-content"
-        fields:
+    fields:
           - {label: Body, name:body, widget:markdown}
 
   - label: "Pages"
