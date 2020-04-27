@@ -7,7 +7,6 @@ collections:
   - label: 'founders-content'
     name: 'founders-content'
     folder: 'content/founders-content'
-    create: true
         fields:
           - {label: 'Body', name: 'body', widget:'markdown' }
 
