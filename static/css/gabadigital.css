@@ -1108,7 +1108,7 @@ p {
     transform: translate(0%, -50%);
   }
   .div-block-12 {
-    border: 10px solid red;
+    border:none;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;

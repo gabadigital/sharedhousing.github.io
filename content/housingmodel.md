@@ -1,10 +1,11 @@
 ---
-title: "Housingmodel"
+title: "Housing model | Shared Housing Solution"
 date: 2020-04-19T13:41:28-07:00
 summary: " "
 type: "static"
 layout: "housingmodel"
 topheading: "our housing model"
+description: "Our Housing model is first of it's kind"
 ---
 The mission behind the first Kate’s house was simple: give women great homes in great suburban neighborhoods to help them start over. It was a revolutionary idea, since most recovery housing is found in the worst parts of town. It is hard to change your life when you are back in the same environment. Frank and Sherri have high expectations of the men and women who move into their homes.
 

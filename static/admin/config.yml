@@ -7,17 +7,23 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "housingmodel"
-        name: "housingmodel"
-        file: "site/content/housingmodel.md"
+      - label: "housing model"
+        name: "housing model"
+        file: "content/housingmodel.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
-          - label: Team
-            name: team
-            widget: list
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: Position, name: position, widget: string}
-              - {label: Photo, name: photo, widget: image}
-              - {label: Layout, name: layout, widget: string}
+          - {label: Body, name: body, widget: markdown}
+
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Index"
+        name: "Index"
+        file: "content/index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Description, name: description, widget: string}
+          - {label: Text Header, name: topheading, widget: string}
+          - {label: Video Image, name: video_thumbnail, widget: image`}
+          - {label: Youtube, name: youtube, widget: string}

@@ -8,26 +8,22 @@
       <div id="w-node-5ce18d161ea2-58d4a54b" class="frontpage_div subpages">
         <div class="div-block-11">
           <h1 class="toph1 toppages">meet the founders</h1>
+          {{$founderscontent := .Site.GetPage "/founders-content"}}
+          {{$reusablefounders := $founderscontent.Resources.ByType "page"}}
+          {{range $reusablefounders}}
           <div class="div-block-12">
-            <div class="founder_pic_wrap"><img src="/images/sherri-pic.jpg" srcset="/images/sherri-pic-p-500.jpeg 500w, /images/sherri-pic.jpg 720w" sizes="(max-width: 479px) 79vw, (max-width: 767px) 37vw, (max-width: 991px) 20vw, 100vw" alt="" class="image-5"></div>
-            <div class="founders_content">
+            <div class="founders_pic_wrap"><img src="/images/{{.Params.image}}" alt=""> </div>
+            <div class="founderscontent">
               <div class="div-block-14">
                 <div class="div-block-13"></div>
-                <h2>Sherri Candalario</h2>
+                <h2 class="heading-3">{{.Params.name}}</h2>
               </div>
-              <p>Sherri was a single mom to a daughter who was heading down the path of addiction. Despite providing some of the best and most expensive treatment options available in the country, recovery housing that followed treatment failed. Post-treatment, living in a recovery or sober living home is the norm. However, Sherri found that the homes were in poor neighborhoods, people would be removed if a house member didn’t like you or you didn’t do a chore.</p>
+              {{.Content}}
             </div>
           </div>
-          <div class="div-block-12">
-            <div class="founder_pic_wrap"><img src="/images/frankpic.jpg" srcset="/images/frankpic-p-500.jpeg 500w, /images/frankpic.jpg 720w" sizes="(max-width: 479px) 79vw, (max-width: 767px) 37vw, (max-width: 991px) 20vw, 100vw" alt="" class="image-5"></div>
-            <div class="founders_content">
-              <div class="div-block-14">
-                <div class="div-block-13"></div>
-                <h2 class="heading-3">FRANK Candalario</h2>
-              </div>
-              <p>Sherri was a single mom to a daughter who was heading down the path of addiction. Despite providing some of the best and most expensive treatment options available in the country, recovery housing that followed treatment failed. Post-treatment, living in a recovery or sober living home is the norm. However, Sherri found that the homes were in poor neighborhoods, people would be removed if a house member didn’t like you or you didn’t do a chore.</p>
-            </div>
-          </div>
+
+          {{end}}
+          >
         </div>
       </div>
 

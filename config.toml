@@ -1,7 +1,9 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Shared Housing Solution"
 relativeURLs = true
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
 
 #Menu config file all put here
 [menu]
