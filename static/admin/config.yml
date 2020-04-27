@@ -25,9 +25,9 @@ collections:
           - {label: Text Header, name: topheading, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Description, name: description, widget: string}
-    - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+    - name: 'founders-content'
+    label: 'founders-content'
+    folder: 'content/founder-content'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
