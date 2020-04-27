@@ -4,6 +4,7 @@ backend:
 media_folder: static/images
 public_folder: /images
 collections:
+
   - label: "Pages"
     name: "pages"
     files:
@@ -22,6 +23,8 @@ collections:
         file: "content/_index.md"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Text Header, name: topheading, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Description, name: description, widget: string}
           - {label: Video Image, name: video_thumbnail, widget: image}
+          - {label: Youtube Link, name: youtube, widget: string}
