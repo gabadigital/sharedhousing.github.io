@@ -22,4 +22,15 @@ collections:
         file: "content/housingmodel.md"
         fields:
           - {label: Title, name: title, widget: string}
+          - {label: Text Header, name: topheading, widget: string}
           - {label: Body, name: body, widget: markdown}
+          - {label: Description, name: description, widget: string}
+
+
+    - label: "Founders"
+      name: "Founders"
+      folder: "content/founders-content"
+      create: true
+          fields:
+            - {label: "headless", name:"headless", widget:true, defaults:"headless" }
+            - {label: "Body", name: "body", widget:"markdown" }
