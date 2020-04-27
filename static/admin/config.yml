@@ -25,11 +25,15 @@ collections:
           - {label: Text Header, name: topheading, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Description, name: description, widget: string}
-  - name: 'founders'
-    label: 'founders'
-    folder: 'content/founders-content'
+    - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
     create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
-        fields:
-          - {label: Title, name: title, widget: string}
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
