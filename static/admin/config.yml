@@ -7,23 +7,33 @@ collections:
   - label: "Pages"
     name: "pages"
     files:
-      - label: "housing model"
-        name: "housing model"
+      - label: "Home Page"
+        name: "Index"
+        file: "content/_index.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Text Header, name: topheading, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - {label: Description, name: description, widget: string}
+          - {label: Video Image, name: video_thumbnail, widget: image}
+          - {label: Youtube Link, name: youtube, widget: string}
+      - label: "housing Model"
+        name: "housingmodel"
         file: "content/housingmodel.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Body, name: body, widget: markdown}
-
-  - label: "Pages"
-    name: "pages"
-    files:
-      - label: "Index"
-        name: "Index"
-        file: "content/index.md"
-        fields:
-          - {label: Title, name: title, widget: string}
+          - {label: Text Header, name: topheading, widget: string}
           - {label: Body, name: body, widget: markdown}
           - {label: Description, name: description, widget: string}
-          - {label: Text Header, name: topheading, widget: string}
-          - {label: Video Image, name: video_thumbnail, widget: image`}
-          - {label: Youtube, name: youtube, widget: string}
+    - name: 'founders-content'
+    label: 'founders-content'
+    folder: 'content/founder-content'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }

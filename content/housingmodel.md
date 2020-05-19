@@ -1,6 +1,5 @@
 ---
 title: "Housing model | Shared Housing Solution"
-date: 2020-04-19T13:41:28-07:00
 summary: " "
 type: "static"
 layout: "housingmodel"
