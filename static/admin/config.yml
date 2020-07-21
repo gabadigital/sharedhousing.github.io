@@ -26,14 +26,33 @@ collections:
           - {label: Body, name: body, widget: markdown}
           - {label: Description, name: description, widget: string}
     - name: 'founders-content'
-    label: 'founders-content'
-    folder: 'content/founder-content'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      label: 'founders-content'
+      folder: 'content/founder-content'
+      create: true
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+      editor:
+        preview: false
+          fields:
+            - { label: 'Title', name: 'title', widget: 'string' }
+            - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+            - { label: 'Description', name: 'description', widget: 'string' }
+            - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
+
+- label: "Pages"
+    name: "pages"
+    files:
+      - label: "about"
+        name: "about"
+        file: "content/about.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Body, name: body, widget: markdown}
+          - label: Team
+            name: team
+            widget: list
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: Position, name: position, widget: string}
+              - {label: Photo, name: photo, widget: image}

@@ -15,7 +15,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   [[menu.mainmenu]]
      identifier="Housingmodel"
-      name="Housing Model"
+      name="FAQ"
       url = "/Housingmodel"
       weight = 3
 
