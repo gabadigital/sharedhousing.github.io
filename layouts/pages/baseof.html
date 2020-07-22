@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<!--  This site was created in Webflow. http://www.webflow.com  -->
+<!--  Last Published: Sat Apr 18 2020 00:33:41 GMT+0000 (Coordinated Universal Time)  -->
+<html data-wf-page="5f14bf339f6473d0510a368e" data-wf-site="5e90aee51bff737dcf863df0">
+{{ partial "header" . }}
+
+<body class="body">
+  <!-- start of section -->
+  <div data-w-id="d53015e7-a7c3-1f0a-b82d-6539c7c1e7de" class="section b-pages">
+
+    <!-- Logo starts here-->
+    <div id="w-node-14774657ae8c-ee863df1" data-w-id="d0146be3-f301-82b9-c3f8-14774657ae8c" class="logo_wrap">
+      <a href="/" aria-current="page" class="b-logomain w-inline-block w--current"><img src="/images/logo.svg" alt=""></a>
+    </div>
+    <!-- Logo ends here -->
+
+    <div id="w-node-6539c7c1e7e1-510a368e" class="blue pages"></div>
+
+    <!-- Main section flows here -->
+    <div id="w-node-6539c7c1e7e2-510a368e" class="b-frontpage_div m-subpages">
+      <div class="b-content-page">
+    <!-- start of frontpage code -->
+
+    {{block "main" .}}
+
+    {{end}}
+      </div>
+    </div>
+
+    <!-- Main section ends here -->
+    <!-- section ends -->
+
+    <!-- section starts -->
+    <!-- social media holder starts -->
+    {{ partial "socials" .}}
+    <!-- social media holder ends -->
+    <!-- section ends -->
+
+    <!-- partial for navigation -->
+    {{ partial "nav" .}}
+    <!-- partial for end -->
+
+    <!-- section starts here -->
+    <!-- mobile menu open up-->
+    {{partial "mobile-dropdown" .}}
+    <!-- mobile menu open up end-->
+    <!-- secion ends here -->
+
+  </div>
+  <!-- end of section code -->
+  {{ partial "footerscript" .}}
+</body>
+</html>

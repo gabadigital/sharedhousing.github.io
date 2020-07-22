@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+          <h1 class="e-toph1 toppages">frequently asked questions</h1>
+          <div class="b-wrapper-pages">
+            <div class="b-faq-grid">
+              <!-- how can I invest top -->
+              <div id="w-node-792bc8d5ae96-510a368e" data-w-id="184c2bd4-ca2f-b164-f490-792bc8d5ae96" class="b-faq-invest">
+                <div data-w-id="184c2bd4-ca2f-b164-f490-792bc8d5ae97" class="b-faq-overlay">
+                  <div class="b-faq-inner">
+                    <div class="b-faq-center-txt">
+                      <h3 class="e-faq-head">how can i invest?</h3>
+                    </div>
+                    <div data-w-id="184c2bd4-ca2f-b164-f490-792bc8d5ae9c" class="b-txt-drop-faq">
+                      <p class="white-txt">KEYCITY CAPITAL&#x27;s offerings for accredited investors who FIRST register on our secure online portal are accessible upon registration. To sign up, click HERE and begin setting up your account. Upon registration, our pipeline of acquisitions with detailed pro formas can be accessed. <br>Contact a KEYCITY CAPITAL team member for instructions on how to:</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- how can I invest top end -->
+
+              <!-- faq (grid this is a section) -->
+              {{$faqmain := .Site.GetPage "/faq-2"}}
+              {{$reusablFAQ := $faqmain.Resources.ByType "page"}}
+              {{range $reusablFAQ}}
+              <div id="w-node-792bc8d5aea1-510a368e" class="b-faq-sub-2">
+                <div data-w-id="fe6be803-e86f-2e4d-2281-0be1e7f1bded" class="b-faq-invest">
+                  <div style="background-color:rgba(0,28,87,0.71)" class="b-faq-overlay">
+                    <div class="b-faq-inner">
+                      <div class="b-faq-center-txt">
+                        <h3 class="e-faq-head">{{.Title}}</h3>
+                      </div>
+                      <div style="display:none;opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="b-txt-drop-faq">
+                        <p class="white-txt">{{.Content}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-w-id="fe6be803-e86f-2e4d-2281-0be1e7f1bded" class="b-faq-invest">
+                  <div style="background-color:rgba(0,28,87,0.71)" class="b-faq-overlay">
+                    <div class="b-faq-inner">
+                      <div class="b-faq-center-txt">
+                        <h3 class="e-faq-head">how can i invest?</h3>
+                      </div>
+                      <div style="display:none;opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="b-txt-drop-faq">
+                        <p class="white-txt">KEYCITY CAPITAL&#x27;s offerings for accredited investors who FIRST register on our secure online portal are accessible upon registration. To sign up, click HERE and begin setting up your account. Upon registration, our pipeline of acquisitions with detailed pro formas can be accessed. <br>Contact a KEYCITY CAPITAL team member for instructions on how to:</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div data-w-id="fe6be803-e86f-2e4d-2281-0be1e7f1bded" class="b-faq-invest">
+                  <div style="background-color:rgba(0,28,87,0.71)" class="b-faq-overlay">
+                    <div class="b-faq-inner">
+                      <div class="b-faq-center-txt">
+                        <h3 class="e-faq-head">how can i invest?</h3>
+                      </div>
+                      <div style="display:none;opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="b-txt-drop-faq">
+                        <p class="white-txt">{{.Content}}</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {{end}}
+
+              <!-- faq (grid this is a section) end -->
+
+            </div>
+          </div>
+
+{{end}}

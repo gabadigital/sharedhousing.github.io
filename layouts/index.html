@@ -1,52 +1,108 @@
+{{ define "main" }}
 
-{{define "main" }}
-  <div data-w-id="c68ed30d-1f09-2dc0-c01f-84f78cc585a0" class="section">
+    <!-- start of section -->
+    <div data-w-id="c68ed30d-1f09-2dc0-c01f-84f78cc585a0" class="section">
 
-  {{ partial "nav" . }}
-    <div id="w-node-95983cfb0687-ee863df1" style="-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="blue"></div>
-    <div id="w-node-632849889a1e-ee863df1" class="frontpage_div">
-  <div id="w-node-632849889a1f-ee863df1" class="image_wrapper">
-
-      <!-- Lightbox controller sits here-->
-      {{partial "youtube" . }}
-      <!-- lightbox controller ends here -->
-
+      <!-- Logo starts here-->
+      <div id="w-node-14774657ae8c-ee863df1" data-w-id="d0146be3-f301-82b9-c3f8-14774657ae8c" class="logo_wrap">
+        <a href="index.html" aria-current="page" class="b-logomain w-inline-block w--current"><img src="images/logo.svg" alt=""></a>
       </div>
-      <div id="w-node-632849889a22-ee863df1" class="front_page-content">
-        <!--content from markdown-->
-        <h1 style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="toph1">{{.Params.topheading}}</h1>
+      <!-- Logo ends here -->
 
-        <p style="-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="toptext"> {{.Plain}} </p>
+      <div id="w-node-95983cfb0687-ee863df1" data-w-id="5e6bbe7b-3d73-534f-3def-95983cfb0687" class="blue"></div>
 
-        <div style="opacity:0" class="btn_wrapper_content">
-          <a href="housing-model.html" class="inline_btn margin_right w-inline-block">
-            <div data-w-id="efc2e623-bffd-2d76-3779-55f0ee708392" class="btn_cover">
-              <div class="btn_textcover">
-                <div class="btn_txt">housing model</div>
-                <div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="abs_btn_bg _1"></div>
-              </div>
-              <div class="btn_iconwrap">
-                <div class="mt_text">󰋜</div>
-                <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="abs_btn_bg arrowwrap"></div>
-              </div>
-            </div>
-          </a>
-          <a href="application.html" class="inline_btn w-inline-block">
-            <div data-w-id="ada7ef15-7e2e-bf51-39e3-5c2afcc5f666" class="btn_cover">
-              <div class="btn_textcover">
-                <div class="btn_txt">application</div>
-                <div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="abs_btn_bg _1"></div>
-              </div>
-              <div class="btn_iconwrap"><img src="images/forwardicon.svg" alt="" class="icon_btn">
-                <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="abs_btn_bg arrowwrap"></div>
-              </div>
-            </div>
-          </a>
+      <!-- section starts -->
+      <!-- start of frontpage code -->
+      <div id="w-node-632849889a1e-ee863df1" class="b-frontpage_div">
+
+        <!-- start of image wrapper -->
+        <div id="w-node-632849889a1f-ee863df1" class="image_wrapper">
+          <!-- Lightbox content starts here -->
+        {{ partial "youtube" .}}
+        <!-- Lightbox content ends here -->
         </div>
-      </div>
-    </div>
-    {{partial "socials" .}}
+        <!-- end of image wrapper -->
 
-  </div>
-  {{partial "footerscript" .}}
+        <!-- start of page contents -->
+        <div id="w-node-632849889a22-ee863df1" class="front_page-content">
+          <h4 class="h4-purpose">Our Purpose:</h4>
+          <h1 data-w-id="fc4a14ac-cf6b-e823-21c6-a37db39f5cf0" class="e-toph1">Buy Homes for <span class="e-txt-span-head">veterans</span> and <span class="e-txt-span-head">disadvantaged women</span>, Achieve <span class="e-txt-span-head">Passive Income</span>  and Solve <span class="e-txt-span-head">Housing Insecurity</span>.</h1>
+          <div class="b-list-wrap">
+            <div class="b-list-flex">
+              <div class="e-list-tile"></div>
+              <div class="e-li-fr">
+                <div>Guaranteed Cash Flow</div>
+              </div>
+            </div>
+            <div class="b-list-flex">
+              <div class="e-list-tile"></div>
+              <div class="e-li-fr">
+                <div>Quarterly Distributions</div>
+              </div>
+            </div>
+            <div class="b-list-flex">
+              <div class="e-list-tile"></div>
+              <div class="e-li-fr">
+                <div>15% Targeted Rate of Return</div>
+              </div>
+            </div>
+            <div class="b-list-flex">
+              <div class="e-list-tile"></div>
+              <div class="e-li-fr">
+                <div>Tax Sheltered</div>
+              </div>
+            </div>
+          </div>
+          <div data-w-id="41bdb1da-5b1d-d872-124b-b4dcaf0bdef0" class="btn_wrapper_content">
+            <a href="housing-model.html" class="inline_btn margin_right w-inline-block">
+              <div data-w-id="efc2e623-bffd-2d76-3779-55f0ee708392" class="btn_cover">
+                <div class="btn_textcover">
+                  <div class="btn_txt">housing model</div>
+                  <div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="abs_btn_bg _1"></div>
+                </div>
+                <div class="btn_iconwrap">
+                  <div class="mt_text">󰋜</div>
+                  <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="abs_btn_bg arrowwrap"></div>
+                </div>
+              </div>
+            </a>
+            <a href="application.html" class="inline_btn w-inline-block">
+              <div data-w-id="ada7ef15-7e2e-bf51-39e3-5c2afcc5f666" class="btn_cover">
+                <div class="btn_textcover">
+                  <div class="btn_txt">Download</div>
+                  <div style="-webkit-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:1" class="abs_btn_bg _1"></div>
+                </div>
+                <div class="btn_iconwrap"><img src="images/forwardicon.svg" alt="" class="icon_btn">
+                  <div style="-webkit-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(-100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0" class="abs_btn_bg arrowwrap"></div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <!-- end of page contents -->
+
+      </div>
+      <!-- end of frontpage code -->
+      <!-- section ends -->
+
+      <!-- section starts -->
+      <!-- social media holder starts -->
+      {{ partial "socials" .}}
+      <!-- social media holder ends -->
+      <!-- section ends -->
+
+      <!-- partial for navigation -->
+      {{ partial "nav" .}}
+      <!-- partial for end -->
+
+      <!-- section starts here -->
+      <!-- mobile menu open up-->
+      {{partial "mobile-dropdown" .}}
+      <!-- mobile menu open up end-->
+      <!-- secion ends here -->
+
+    </div>
+    <!-- end of section code -->
+    {{ partial "footerscript" .}}
+
 {{end}}
