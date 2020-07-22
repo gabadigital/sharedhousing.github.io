@@ -1,7 +1,7 @@
 ---
-title: "WHAT IS THE MINIMUM INVESTMENT?"
+title: "MINIMUM INVESTMENT?"
 headless : true
-name: " "
+name: "invest"
 images: "faq.jpg"
 ---
 $100,000 is the minimum to invest in Fund I.
