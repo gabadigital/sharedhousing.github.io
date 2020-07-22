@@ -1,8 +1,8 @@
 ---
-title: "hi"
-headless : true
+title: Frank
+headless: true
 name: "Frank Candalario "
-image: "frankpic.jpg"
+image: frankpic.jpg
 ---
 Frank Candelario has extensive experience in non-profit management and real estate development. Frank started his career as Executive Director of nonprofit camps. In this capacity, Frank was responsible for property management, program management and people.
 
