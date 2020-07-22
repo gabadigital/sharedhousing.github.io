@@ -26,9 +26,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       weight = 4
 
   [[menu.mainmenu]]
-         identifier="Application"
-          name="Application"
-          url = "/application"
+         identifier="Registration"
+          name="registration"
+          url = "/registration"
           weight = 5
 
 
