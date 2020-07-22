@@ -1,18 +1,11 @@
 {{ define "main" }}
 
-          <h1 class="e-toph1 toppages">About</h1>
+          <h1 class="e-toph1 toppages">{{.Params.topheading}}</h1>
 
           <div class="b-wrapper-pages">
 
             <div class="rich-text w-richtext">
-              <h3>WHY SINGLE FAMILY HOMES</h3>
-              <ul role="list">
-                <li>A single-family home&#x27;s value to an investor is the rent that it provides. Market competition can lead to low returns</li>
-                <li>We use density (two beds per bedroom 4-5 bedrooms for a house for 8 to ten beds to double or triple cash flow.</li>
-                <li>We buy a great house in a high value neighborhood resulting in superior cash flow and appreciation.</li>
-                <li>This type of shared housing is not constrained by landlord tenant laws.  It is a program.</li>
-                <li>Single family homes are easy to market and exit.</li>
-              </ul>
+              {{.Content}}
             </div>
 
         </div>
