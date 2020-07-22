@@ -1,5 +1,5 @@
 ---
-title: "MINIMUM INVESTMENT?"
+title: "how can I invest?"
 headless : true
 name: "invest"
 images: "faq.jpg"
