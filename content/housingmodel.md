@@ -1,7 +1,7 @@
 ---
 title: "Housing model | Shared Housing Solution"
 summary: " "
-type: "static"
+type: "pages"
 layout: "housingmodel"
 topheading: "our housing model"
 description: "Our Housing model is first of it's kind"
