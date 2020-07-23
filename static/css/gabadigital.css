@@ -126,6 +126,12 @@ li {
   display: block;
   padding-top: 3.5%;
   background-color: #fff;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(98%, hsla(0, 0%, 100%, 0.95))), url('../images/forwardicon.svg');
+  background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0.95) 98%), url('../images/forwardicon.svg');
+  background-position: 0px 0px, -10% -90%;
+  background-size: auto, 500px;
+  background-repeat: repeat, repeat;
+  background-attachment: scroll, fixed;
 }
 
 .e-toph1 {
@@ -884,7 +890,7 @@ li {
   grid-auto-columns: 1fr;
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  grid-template-areas: "faq-invest faq-invest" "min-investment min-investment" "acredited-investor acredited-investor";
+  grid-template-areas: "faq-invest faq-invest" "min-investment min-investment" "acredited-investor acredited-investor" "last-lap-faq last-lap-faq";
   -ms-grid-columns: 1fr 16px 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto 16px 1fr;
@@ -897,10 +903,11 @@ li {
   display: -ms-flexbox;
   display: flex;
   padding: 1.3%;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background-image: url('../images/houses.jpg');
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -911,11 +918,16 @@ li {
   margin-bottom: 4%;
   font-family: Catamaran, sans-serif;
   color: #fff;
-  font-size: 2.2em;
-  line-height: 1.2em;
-  font-weight: 600;
+  font-size: 1.7em;
+  line-height: 1.1em;
+  font-weight: 400;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+}
+
+.e-faq-head.top {
+  font-size: 2em;
+  font-weight: 700;
 }
 
 .white-txt {
@@ -940,7 +952,7 @@ li {
   display: flex;
   width: 100%;
   min-height: 450px;
-  padding: 2%;
+  padding: 8% 2%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -968,8 +980,8 @@ li {
   grid-row-gap: 16px;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
-  -ms-grid-rows: auto auto;
-  grid-template-rows: auto auto;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 .h4-purpose {
@@ -1070,6 +1082,54 @@ li {
   background-color: #fff;
   color: #002c66;
   text-transform: uppercase;
+}
+
+.b-faq-sub-area-grid3 {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+  grid-template-areas: "verify-invesment cash-investment";
+  -ms-grid-columns: 0.73fr 16px 1fr;
+  grid-template-columns: 0.73fr 1fr;
+  -ms-grid-rows: auto 16px auto;
+  grid-template-rows: auto auto;
+}
+
+.b-last-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-column-gap: 19px;
+  grid-row-gap: 19px;
+  grid-template-areas: ". e-area-fee-structure";
+  -ms-grid-columns: 1fr 19px 1fr 19px 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.e-image-reg {
+  height: 250px;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.b-image-ad-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 5%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 991px) {
@@ -1374,6 +1434,11 @@ li {
     align-items: center;
     background-color: #f7f7f7;
   }
+  .e-faq-head {
+    margin-bottom: 3%;
+    font-size: 1.8em;
+    line-height: 1.1em;
+  }
   .b-faq-overlay {
     background-color: rgba(0, 38, 90, 0.89);
   }
@@ -1535,6 +1600,13 @@ li {
     width: 240px;
     padding-left: 5%;
   }
+  .b-last-grid {
+    grid-template-areas: "e-area-fee-structure e-area-fee-structure";
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1643,6 +1715,28 @@ li {
     align-items: stretch;
   }
   .b-faq-grid {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  .b-faq-invest {
+    margin-bottom: 3%;
+  }
+  .e-faq-head {
+    font-size: 1.6em;
+  }
+  .b-faq-sub-2 {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1653,10 +1747,21 @@ li {
     -ms-flex-direction: column;
     flex-direction: column;
   }
-  .b-faq-invest {
-    margin-bottom: 3%;
+  .b-faq-sub-area-grid3 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    grid-template-areas: "verify-invesment cash-investment";
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
   }
-  .b-faq-sub-2 {
+  .b-last-grid {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1922,22 +2027,77 @@ li {
   grid-area: min-investment;
 }
 
-#w-node-792bc8d5aead-510a368e {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
 #w-node-792bc8d5aec3-510a368e {
   -ms-grid-row: 5;
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: acredited-investor;
+}
+
+#w-node-a5b1f4a02bab-510a368e {
+  -ms-grid-row: 7;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 3;
+  grid-area: last-lap-faq;
+}
+
+#w-node-a5b1f4a02bac-510a368e {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: verify-invesment;
+}
+
+#w-node-a5b1f4a02bb7-510a368e {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: cash-investment;
+}
+
+@media screen and (max-width: 767px) {
+  #w-node-a5b1f4a02bac-510a368e {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  #w-node-a5b1f4a02bb7-510a368e {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+  }
+}
+
+#w-node-5b1527a13c96-510a368e {
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+  -ms-grid-column: span 2;
+  grid-column-start: span 2;
+  -ms-grid-column-span: 2;
+  grid-column-end: span 2;
+}
+
+#w-node-3c9cc0d4716e-510a368e {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  grid-area: e-area-fee-structure;
+}
+
+@media screen and (max-width: 991px) {
+  #w-node-3c9cc0d4716e-510a368e {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+  }
+}
+
+#w-node-5ec314ea6088-510a368e {
+  -ms-grid-column: 1;
+  grid-column-start: 1;
+  -ms-grid-row: 1;
+  grid-row-start: 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: 2;
+  -ms-grid-row-span: 1;
+  grid-row-end: 2;
 }
 
 #w-node-6539c7c1e7fb-510a368e {
@@ -2126,6 +2286,16 @@ li {
     -ms-grid-column: 3;
     -ms-grid-column-span: 3;
     grid-area: main-content;
+  }
+  #w-node-5ec314ea6088-510a368e {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
   }
   #w-node-6539c7c1e7fb-510a368e {
     -ms-grid-row: 3;
