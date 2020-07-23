@@ -1,5 +1,5 @@
 ---
-title: "HOW ARE DISTRIBUTIONS MADE?"
+title: "How Do I Invest??"
 headless : true
 name: " "
 images: "faq.jpg"
