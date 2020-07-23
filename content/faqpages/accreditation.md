@@ -1,5 +1,5 @@
 ---
-title: "MINIMUM INVESTMENT?"
+title: "Who is an Accredited Investor?"
 headless : true
 name: "invest"
 images: "faq.jpg"
