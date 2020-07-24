@@ -1,13 +1,13 @@
 ---
-title: "About"
-date: 2020-04-19T13:41:28-07:00
 summary: " "
-type: "pages"
-layout: "abouttemplate"
-topheading: "About us"
-description: "Apply to the Shared Housing Solution Housing Model"
+layout: abouttemplate
+intro: try
+topheading: About us
+date: 2020-04-19T13:41:28-07:00
+title: About
+type: pages
+description: Apply to the Shared Housing Solution Housing Model
 ---
-
 ### Our Mission:  We house people who deserve good homes in shared housing:   veterans, women, moms, the elderly and foster kids.
 ### WHY SINGLE FAMILY HOMES
 * **The problem:**  There is a lack of affordable housing for some of the most deserving members of society.  
