@@ -1,29 +1,21 @@
 <div class="b-mobile-menu-open">
   <div class="b-mobile-closenav">
-    <div class="e-logo-mob-men"><img src="images/logo.svg" alt=""></div>
+    <a href="/"class="e-logo-mob-men"><img src="/images/logo.svg" alt=""></a>
     <div data-w-id="eefcf793-2740-c3d0-7633-f0e51b849bb4" class="e-close-icon">
       <div>󰅖</div>
     </div>
   </div>
+
   <div class="b-mobile-flex-stretch">
     <div>
-      <a href="index.html" aria-current="page" class="e-mobile-navlink w-inline-block w--current">
-        <div>home</div>
+    {{range .Site.Menus.mainmenu }}
+      <a href="{{.URL}}" aria-current="page" class="e-mobile-navlink w-inline-block w--current">
+        <div>{{.Name}}</div>
         <div class="e-chevron-right">󰅂</div>
       </a>
-      <a href="#" class="e-mobile-navlink w-inline-block">
-        <div>FAQ</div>
-        <div class="e-chevron-right">󰅂</div>
-      </a>
-      <a href="#" class="e-mobile-navlink w-inline-block">
-        <div>housing model</div>
-        <div class="e-chevron-right">󰅂</div>
-      </a>
-      <a href="founders.html" class="e-mobile-navlink w-inline-block">
-        <div>Founders</div>
-        <div class="e-chevron-right">󰅂</div>
-      </a>
+    {{end}}
     </div>
+
     <div class="b-call-wrap">
       <a href="#" class="e-mobile-navlink tel w-inline-block">
         <div>+1 760 907 9068</div>

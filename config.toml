@@ -8,10 +8,16 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 #Menu config file all put here
 [menu]
   [[menu.mainmenu]]
-   identifier="About"
-    name="About"
-    url = "/about"
-    weight = 2
+   identifier="Home"
+    name="Home"
+    url = "/"
+    weight = 1
+
+  [[menu.mainmenu]]
+    identifier="About"
+     name="About"
+     url = "/about"
+     weight = 2
 
   [[menu.mainmenu]]
      identifier="Founders"
@@ -30,7 +36,6 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
           name="registration"
           url = "/registration"
           weight = 5
-
 
 #Logo put here
 [params.logo]
