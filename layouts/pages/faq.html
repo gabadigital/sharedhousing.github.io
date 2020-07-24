@@ -42,7 +42,7 @@
                 {{$faqmain := .Site.GetPage "/faqpages"}}
                 {{$reusableFAQ := $faqmain.Resources.Match "accredited-investor.md"}}
                 {{range $reusableFAQ}}
-              <div id="w-node-a5b1f4a02bac-510a368e" data-w-id="a089c0af-7240-084d-0030-a5b1f4a02bac" class="b-faq-invest">
+              <div id="w-node-a5b1f4a02bac-510a368e" data-w-id="a089c0af-7240-084d-0030-a5b1f4a02bac" class="b-faq-invest"  style ="background-image: url('/images/{{.Params.images}}');">
                 {{partial "faq-holder" .}}
               </div>
                 {{end}}
@@ -51,7 +51,7 @@
                 {{$faqmain := .Site.GetPage "/faqpages"}}
                 {{$reusableFAQ := $faqmain.Resources.Match "distributions.md"}}
                 {{range $reusableFAQ}}
-                <div id="w-node-a5b1f4a02bb7-510a368e" data-w-id="a089c0af-7240-084d-0030-a5b1f4a02bb7" class="b-faq-invest">
+                <div id="w-node-a5b1f4a02bb7-510a368e" data-w-id="a089c0af-7240-084d-0030-a5b1f4a02bb7" class="b-faq-invest"  style ="background-image: url('/images/{{.Params.images}}');">
                   {{partial "faq-holder" .}}
                 </div>
               {{end}}
