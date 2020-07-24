@@ -46,5 +46,4 @@ collections:
         file: "/content/about.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: Intro, name: intro, widget: markdown}
           - {label: body, name: body, widget: markdown}
