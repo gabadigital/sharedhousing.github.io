@@ -14,8 +14,6 @@ Our services include locating and identifying properties in neighborhoods that a
 
 As soon as the property is ready, we screen and identify the best residents to occupy the house, minimizing losses from openings and making sure there’s a steady stream of income. At any time, we have contracts with state and local agencies, the Veterans Administration and local drug courts to provide residents.
 
-### WHY SINGLE FAMILY HOMES
-
 * **The problem:**  There is a lack of affordable housing for some of the most deserving members of society.  
 * **How does an investor achieve high returns** using a model of socially responsible investing?
 * Can an investor make a difference in society by investing in professionally managed single-family homes?
