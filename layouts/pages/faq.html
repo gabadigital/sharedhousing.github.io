@@ -54,45 +54,45 @@
                 <div id="w-node-a5b1f4a02bb7-510a368e" data-w-id="a089c0af-7240-084d-0030-a5b1f4a02bb7" class="b-faq-invest"  style ="background-image: url('/images/{{.Params.images}}');">
                   {{partial "faq-holder" .}}
                 </div>
-              {{end}}
+                {{end}}
 
-              <div id="w-node-5b1527a13c96-510a368e" class="b-last-grid">
-                <div id="w-node-3c9cc0d4716e-510a368e" data-w-id="4986c7cc-589d-9e6a-1569-3c9cc0d4716e" class="b-faq-invest">
+                {{$faqmain := .Site.GetPage "/faqpages"}}
+                {{$reusableFAQ := $faqmain.Resources.Match "fee-structure.md"}}
+                {{range $reusableFAQ}}
+                <div id="w-node-5b1527a13c96-510a368e" class="b-last-grid">
+                  <div id="w-node-3c9cc0d4716e-510a368e" data-w-id="4986c7cc-589d-9e6a-1569-3c9cc0d4716e" class="b-faq-invest" style ="background-image: url('/images/{{.Params.images}}');">
+                    <div style="background-color:rgba(0,28,87,0.71)" class="b-faq-overlay">
+                      <div class="b-faq-inner">
+                        <div class="b-faq-center-txt">
+                          <h3 class="e-faq-head">{{.Title}}</h3>
+                        </div>
+                        <div style="display:none;opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="b-txt-drop-faq">
+                          {{.Content}}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                {{end}}
+
+
+                {{$faqmain := .Site.GetPage "/faq-last"}}
+                {{$reusableFaq2 := $faqmain.Resources.ByType "page"}}
+                {{range $reusableFaq2}}
+                <div data-w-id="855751b5-5e57-6e76-b14f-0e08bc473b2d" class="b-faq-invest"  style ="background-image: url('/images/{{.Params.images}}');">
                   <div style="background-color:rgba(0,28,87,0.71)" class="b-faq-overlay">
                     <div class="b-faq-inner">
                       <div class="b-faq-center-txt">
-                        <h3 class="e-faq-head">WHAT IS THE FEE STRUCTURE?</h3>
+                        <h3 class="e-faq-head">{{.Title}}</h3>
                       </div>
                       <div style="display:none;opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="b-txt-drop-faq">
-                        <p class="white-txt">Investors receive a 12% preferred return. Shared Housing Solutions charges a 1% management fee.  Once investor capital is fully returned and the preferred return is paid, Shared Housing Solutions receives 70% of the profits and investors receive 30%. A 2.5% acquisition fee and 2.5% disposition fee will also be charged for all assets. We do not charge a fee to setup an account</p>
+                        {{.Content}}
                       </div>
                     </div>
                   </div>
                 </div>
-                <div id="w-node-5ec314ea6088-510a368e" data-w-id="191ebfb4-8d1d-603f-786b-5ec314ea6088" class="b-faq-invest">
-                  <div style="background-color:rgba(0,28,87,0.71)" class="b-faq-overlay">
-                    <div class="b-faq-inner">
-                      <div class="b-faq-center-txt">
-                        <h3 class="e-faq-head">ARE LLC'S, LP'S, TRUSTS OR IRA'S ELIGIBLE FOR INVESTMENT?</h3>
-                      </div>
-                      <div style="display:none;opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="b-txt-drop-faq">
-                        <p class="white-txt">Shared Housing Solutions allowsws investments to be made through an LLC or trust. Self-directed IRAs are also eligible for investments. Please contact us for the custodian selection process.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div data-w-id="855751b5-5e57-6e76-b14f-0e08bc473b2d" class="b-faq-invest">
-                  <div style="background-color:rgba(0,28,87,0.71)" class="b-faq-overlay">
-                    <div class="b-faq-inner">
-                      <div class="b-faq-center-txt">
-                        <h3 class="e-faq-head">WHAT TAX FORMS DOES Shared Housing Solution ISSUE?</h3>
-                      </div>
-                      <div style="display:none;opacity:0;-webkit-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 80PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0)" class="b-txt-drop-faq">
-                        <p class="white-txt">Similar to a 1099, a K-1 form is an accounting of the tax income for the year which Shared Housing Solutions issues to each of our investors in real estate ownership.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                {{end}}
+
               </div>
             </div>
 
