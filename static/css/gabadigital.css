@@ -126,8 +126,8 @@ li {
   display: block;
   padding-top: 3.5%;
   background-color: #fff;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), color-stop(98%, hsla(0, 0%, 100%, 0.95))), url('../images/forwardicon.svg');
-  background-image: linear-gradient(180deg, #fff, hsla(0, 0%, 100%, 0.95) 98%), url('../images/forwardicon.svg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#f0f0e1), color-stop(98%, hsla(0, 0%, 100%, 0.95))), url('../images/forwardicon.svg');
+  background-image: linear-gradient(180deg, #f0f0e1, hsla(0, 0%, 100%, 0.95) 98%), url('../images/forwardicon.svg');
   background-position: 0px 0px, -10% -90%;
   background-size: auto, 500px;
   background-repeat: repeat, repeat;
@@ -1132,6 +1132,36 @@ li {
   align-items: center;
 }
 
+.vid-title {
+  position: absolute;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 9px;
+  padding: 3% 1.3%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #fff;
+  color: #0f458d;
+  font-size: 1.3em;
+  line-height: 1.2em;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 991px) {
   h2 {
     color: #1958ac;
@@ -1207,6 +1237,7 @@ li {
     height: 50vw;
     max-width: 90vw;
     border-width: 7px;
+    background-position: 50% 0%;
   }
   .blue.pages {
     display: none;
@@ -1772,6 +1803,9 @@ li {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+  .vid-title {
+    font-size: 1.24em;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -1790,6 +1824,9 @@ li {
   .section {
     -ms-grid-columns: 6vw minmax(60vw, 2fr) 1.5fr;
     grid-template-columns: 6vw minmax(60vw, 2fr) 1.5fr;
+  }
+  .video_coverage_wrap {
+    height: 54vw;
   }
   .logo_wrap {
     padding-right: 8%;
@@ -1817,6 +1854,9 @@ li {
   }
   .h4-purpose {
     font-size: 1.1em;
+  }
+  .vid-title {
+    font-size: 1.2em;
   }
 }
 
@@ -2025,13 +2065,6 @@ li {
   -ms-grid-column: 1;
   -ms-grid-column-span: 3;
   grid-area: min-investment;
-}
-
-#w-node-792bc8d5aec3-510a368e {
-  -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
-  grid-area: acredited-investor;
 }
 
 #w-node-a5b1f4a02bab-510a368e {
