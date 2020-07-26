@@ -47,3 +47,13 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: body, name: body, widget: markdown}
+
+  - label: "Pages"
+    name: "pages"
+    files:
+      - label: "Purpose Driven"
+        name: "Purpose Driven"
+        file: "/content/purpose-driven.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: body, name: body, widget: markdown}

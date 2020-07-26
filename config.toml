@@ -8,22 +8,22 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 #Menu config file all put here
 [menu]
   [[menu.mainmenu]]
-   identifier="Home"
-    name="Home"
-    url = "/"
-    weight = 1
+   identifier="Purpose-drive"
+    name="Purpose driven"
+    url = "/purpose-driven"
+    weight = 3
 
   [[menu.mainmenu]]
     identifier="About"
      name="About"
      url = "/about"
-     weight = 2
+     weight = 1
 
   [[menu.mainmenu]]
      identifier="Founders"
       name="Founders"
       url = "/founders"
-      weight = 3
+      weight = 2
 
   [[menu.mainmenu]]
      identifier="Housingmodel"
