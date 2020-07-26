@@ -8,7 +8,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 #Menu config file all put here
 [menu]
   [[menu.mainmenu]]
-   identifier="Purpose-drive"
+   identifier="Purpose-driven"
     name="Purpose driven"
     url = "/purpose-driven"
     weight = 3

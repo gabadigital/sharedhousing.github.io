@@ -52,7 +52,7 @@ collections:
     name: "pages"
     files:
       - label: "Purpose Driven"
-        name: "Purpose Driven"
+        name: "purpose-driven"
         file: "/content/purpose-driven.md"
         fields:
           - {label: Title, name: title, widget: string}
