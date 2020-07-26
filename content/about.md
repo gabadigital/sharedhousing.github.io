@@ -22,7 +22,7 @@ As soon as the property is ready, we screen and identify the best residents to o
 
 
 
-### WHY SINGLE FAMILY HOMES
+### WHY SINGLE FAMILY HOMES?
 
 * Solve homelessness
 * Ends Poverty
