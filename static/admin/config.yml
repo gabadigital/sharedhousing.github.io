@@ -53,5 +53,5 @@ collections:
         file: "/content/purpose-driven.md"
         fields:
           - {label: Title, name: title, widget: string}
-          - {label: topheading, name: Heading, widget: string}
+          - {label: Heading of Page, name: topheading, widget: string}
           - {label: body, name: body, widget: markdown}

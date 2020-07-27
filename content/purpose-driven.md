@@ -1,8 +1,7 @@
 ---
-Heading: 'PURPOSE DRIVEN:  "We are in a new age of real estate investing".'
 summary: " "
 layout: abouttemplate
-topheading: Purpose Driven
+topheading: :Purpose Driven"
 date: 2020-04-19T13:41:28-07:00
 title: Purpose Driven
 type: pages
