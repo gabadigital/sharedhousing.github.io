@@ -1,13 +1,14 @@
 ---
+Heading: 'PURPOSE DRIVEN:  "We are in a new age of real estate investing".'
 summary: " "
+layout: abouttemplate
 topheading: Purpose Driven
 date: 2020-04-19T13:41:28-07:00
-type: pages
-layout: abouttemplate
-description: Apply to the Shared Housing Solution Housing Model
 title: Purpose Driven
+type: pages
+description: Apply to the Shared Housing Solution Housing Model
 ---
-**We are in a new age of real estate investing.**  People want to spend their money in a meaningful way to impact society.   As social-preneurs, we are impacting people in need of housing by providing single family homes and apartments.  
+People want to spend their money in a meaningful way to impact society.   As social-preneurs, we are impacting people in need of housing by providing single family homes and apartments.  
 
 Shared Housing Solutions is the umbrella organization of Kate’s House Foundation; www.kateshousefoundation.org (501C3 EIN;  81-4323129), founded in Seattle, Washington by **Dr. Sherri Candelario** and **Frank Candelario** in 2015.   We were founded to eliminate housing insecurity for men and women who are not able to easily obtain housing.  **As the founders and visionaries** behind Kate’s House Foundation, we **created** the first homes in Washington state to be certified as Level II Medically Assisted Treatment homes by the Washington Affiliate of Quality Residences.  Our model of housing can be duplicated for any population of people.  **For investors, you own the real estate, receive a great return and provide a model of housing that works!**
 
