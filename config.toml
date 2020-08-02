@@ -43,3 +43,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   logo = "logo.svg"
   alt= "Shared Housing Logo"
   URL =""
+
+  [params]
+  snipcart_test_api_key = "MGM0ZmEzZGUtODQ3Yy00Mzc3LTliYzUtYmMwYTk2MGRiZjNlNjM3MzE5MDUwNTMyNzI3NzQw"
+  snipcart_live_api_key = ""

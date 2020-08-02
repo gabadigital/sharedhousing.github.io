@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+          <h1 class="e-toph1 toppages">{{.Params.topheading}}</h1>
+
+          <div class="b-wrapper-pages">
+
+            <div class="b-past-event">
+            <h2 class="e-h2-events">upcoming events</h2>
+            <div class="b-events-past">
+              <div class="b-flex-events">
+                <div class="b-event-info">
+                  <div class="heading-onevents">
+                    <h3 class="e-event-head white-txt">Learn how you can buy Single Family Homes, Develop Shared Housing and Tap into Federal and State Funding</h3>
+                  </div>
+                  <div class="b-flex-2sides">
+                    <div class="e-semi-topics">date:</div>
+                    <div class="text-block">october 10, 2020 (9AM - NOON)</div>
+                  </div>
+                  <div class="b-flex-2sides">
+                    <div class="e-semi-topics">Lecture by:</div>
+                    <div class="text-block">Frank and sherri candelario, ph.D</div>
+                  </div>
+                  <div class="b-flex-2sides">
+                    <div class="e-semi-topics">fee:</div>
+                    <div class="text-block">$2,495</div>
+                  </div>
+                  <p>Come join  Frank and Sherri Candelario, Ph.D.  as they teach you how to purchase, rehab and house people in shared housing.   Learn how to work with local and state agencies, what types of contracts are needed, insurance, and  how to get funded.   This successful team created <a href="http://www.kateshousefoundation.org/" target="_blank">www.kateshousefoundation.org</a> and built a multi-million dollar real estate  portfolio of rapidly appreciating homes, with mortgages and expenses paid by state and federal funds..  Learn about state and national certification standards.  Sherri is on the Board of Directors of WAQR, the state affiliate of the National Alliance of Recovery Residences.<br>‍<br></p>
+                  <a href="application.html" class="reg-now-btn w-inline-block">
+                    <div></div>
+                  </a>
+                  {{ range .Site.Data.products }}
+                  {{ partial "products" . }}
+                  {{ end }}
+                </div>
+                <div class="event-img-holder">
+                  <div class="e-event-img"></div>
+                </div>
+              </div>
+            </div>
+            </div>
+
+          </div>
+
+
+{{end}}
