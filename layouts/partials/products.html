@@ -1,5 +1,5 @@
-<div class="product">
-  <h2 class="product__name">{{ .name }}</h2>
+ <div class="product">
+  <h2 class="product__name">{{.name}}</h2>
   <img class="product__image" src="{{ .image }}" alt="">
   <p class="product__description">{{ .description }}</p>
   <div class="product__button-container">
@@ -9,7 +9,7 @@
       data-item-id="{{ .id }}"
       data-item-name="{{ .name }}"
       data-item-price="{{ .price }}"
-      data-item-url="https://www.sharedhousingsolutions.com/"
+      data-item-url="{{.product_url}}"
       data-item-description="{{ .description }}">
       Add to cart
     </button>
