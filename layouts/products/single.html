@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+       <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.18/default/snipcart.css" />
+  </head>
+  <body>
+    <button
+        class="snipcart-add-item"
+        data-item-id="{{ .URL }}"
+        data-item-name="{{ .Title }}"
+        data-item-price="{{ .Params.price }}"
+        data-item-url="{{ .Permalink }}"
+        {{ with .Params.shortDescription }}
+        data-item-description="{{ . }}"
+        {{ end }}
+        {{ with .Params.cartImage }}
+        data-item-image="{{ . | absURL }}"
+        {{ end }}
+    >
+    Buy {{ .Title }}
+    </button>
+
+  </body>
+
+<div hidden id="snipcart" data-api-key="MGM0ZmEzZGUtODQ3Yy00Mzc3LTliYzUtYmMwYTk2MGRiZjNlNjM3MzE5MDUwNTMyNzI3NzQw"></div>
+<script src="https://cdn.snipcart.com/themes/v3.0.18/default/snipcart.js"></script>
+</html>
