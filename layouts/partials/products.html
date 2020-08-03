@@ -1,17 +1,12 @@
- <div class="product">
-  <h2 class="product__name">{{.name}}</h2>
-  <img class="product__image" src="{{ .image }}" alt="">
-  <p class="product__description">{{ .description }}</p>
-  <div class="product__button-container">
-    <div class="product__price">${{ .price }}</div>
+{{range .Site.Data.products}}
     <button
-      class="snipcart-add-item buy-button"
+      class="snipcart-add-item reg-now-btn w-inline-block"
       data-item-id="{{ .id }}"
       data-item-name="{{ .name }}"
       data-item-price="{{ .price }}"
-      data-item-url="{{.product_url}}"
+      data-item-image= "{{.image}}"
+      data-item-url="{{.Site.BaseURL}}{{.product_url}}"
       data-item-description="{{ .description }}">
-      Add to cart
+    Register now
     </button>
-  </div>
-</div>
+{{end}}

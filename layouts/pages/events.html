@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-          <!-- <h1 class="e-toph1 toppages">{{.Params.topheading}}</h1>
+          <h1 class="e-toph1 toppages">{{.Params.topheading}}</h1>
 
           <div class="b-wrapper-pages">
 
@@ -24,29 +24,21 @@
                     <div class="e-semi-topics">fee:</div>
                     <div class="text-block">$2,495</div>
                   </div>
-                  <p>Come join  Frank and Sherri Candelario, Ph.D.  as they teach you how to purchase, rehab and house people in shared housing.   Learn how to work with local and state agencies, what types of contracts are needed, insurance, and  how to get funded.   This successful team created <a href="http://www.kateshousefoundation.org/" target="_blank">www.kateshousefoundation.org</a> and built a multi-million dollar real estate  portfolio of rapidly appreciating homes, with mortgages and expenses paid by state and federal funds..  Learn about state and national certification standards.  Sherri is on the Board of Directors of WAQR, the state affiliate of the National Alliance of Recovery Residences.<br>‍<br></p>
-                  <a href="application.html" class="reg-now-btn w-inline-block">
-                    <div></div>
-                  </a>
+                  <p>Come join Frank and Sherri Candelario, Ph.D.  as they teach you how to purchase, rehab and house people in shared housing.   Learn how to work with local and state agencies, what types of contracts are needed, insurance, and  how to get funded.   This successful team created <a href="http://www.kateshousefoundation.org/" target="_blank">www.kateshousefoundation.org</a> and built a multi-million dollar real estate  portfolio of rapidly appreciating homes, with mortgages and expenses paid by state and federal funds..  Learn about state and national certification standards.  Sherri is on the Board of Directors of WAQR, the state affiliate of the National Alliance of Recovery Residences.<br>‍<br></p>
+                  {{partial "products" . }}
+                  <button type="button" name="button"></button>
 
                 </div>
                 <div class="event-img-holder">
-                  <div class="e-event-img"></div>
+                  <div class="e-event-img" style ="background-image: url('/images/sherri-and-frank-teaching.jpg');"></div>
                 </div>
               </div>
             </div>
             </div>
 
-          </div> -->
-          <button class="snipcart-add-item"
-    data-item-id="starry-night"
-    data-item-price="79.99"
-    data-item-url="/"
-    data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
-    data-item-image="/assets/images/starry-night.jpg"
-    data-item-name="The Starry Night">
-    Add to cart
-  </button>
+          </div>
+
+
 
 
 {{end}}
