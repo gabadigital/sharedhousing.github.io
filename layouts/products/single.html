@@ -10,10 +10,10 @@
   <body>
     <button
         class="snipcart-add-item"
-        data-item-id="{{ .URL }}"
+        data-item-id=" {{.Site.BaseURL}}{{ .URL }}"
         data-item-name="{{ .Title }}"
         data-item-price="{{ .Params.price }}"
-        data-item-url="{{ .Permalink }}"
+        data-item-url="https://www.sharedhousingsolutions.com/products/axe/"
         {{ with .Params.shortDescription }}
         data-item-description="{{ . }}"
         {{ end }}
