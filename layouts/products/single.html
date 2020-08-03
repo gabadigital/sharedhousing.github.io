@@ -13,7 +13,7 @@
         data-item-id=" {{.Site.BaseURL}}{{ .URL }}"
         data-item-name="{{ .Title }}"
         data-item-price="{{ .Params.price }}"
-        data-item-url="https://www.sharedhousingsolutions.com/products/axe/"
+        data-item-url="{{.Site.BaseURL}}{{.RelPermalink}}"
         {{ with .Params.shortDescription }}
         data-item-description="{{ . }}"
         {{ end }}
@@ -23,7 +23,7 @@
     >
     Buy {{ .Title }}
     </button>
-
+    {{.Site.BaseURL}}
   </body>
 
 

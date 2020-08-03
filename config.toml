@@ -1,4 +1,4 @@
-baseURL = "https://wwww.sharedhousingsolutions.com/"
+BaseURL = "https://sharedhousingsolutions.com"
 languageCode = "en-us"
 title = "Shared Housing Solution"
 relativeURLs = true
