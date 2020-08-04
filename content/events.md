@@ -3,6 +3,6 @@ title: "Housing model | Shared Housing Solution"
 summary: " "
 type: "pages"
 layout: "events"
-topheading: "our housing model"
+topheading: "Events"
 description: "Our Housing model is first of it's kind"
 ---
