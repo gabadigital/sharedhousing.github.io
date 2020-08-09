@@ -912,9 +912,10 @@ li {
   padding: 12px;
   border: 1px solid #edad03;
   font-family: Montserrat, sans-serif;
-  color: #ffc52b;
+  color: #0f458d;
   font-size: 1.1em;
   text-decoration: none;
+  background-color: #edad03;
 }
 
 .e-txt-span-head {
