@@ -123,7 +123,7 @@ li {
   font-family: Catamaran, sans-serif;
   color: #bebebe;
   font-size: 2.8em;
-  line-height: 1.2em;
+  line-height: 1.15;
   font-weight: 400;
   letter-spacing: 0.023em;
   text-transform: uppercase;
@@ -193,6 +193,7 @@ li {
   box-shadow: 0 4px 14px -4px rgba(0, 0, 0, 0.32);
   font-size: 0.9em;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn_textcover {
@@ -911,11 +912,18 @@ li {
 .e-phone-top {
   padding: 12px;
   border: 1px solid #edad03;
+  background-color: #edad03;
+  -webkit-transition: background-color 200ms ease;
+  transition: background-color 200ms ease;
   font-family: Montserrat, sans-serif;
   color: #0f458d;
   font-size: 1.1em;
+  font-weight: 500;
   text-decoration: none;
-  background-color: #edad03;
+}
+
+.e-phone-top:hover {
+  background-color: #fff;
 }
 
 .e-txt-span-head {
@@ -1098,6 +1106,7 @@ li {
   border-style: solid;
   border-width: 4px;
   border-color: #dbba61;
+  background-image: url('../images/sherri-and-Frank.jpg');
   background-position: 50% 0%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1161,6 +1170,15 @@ li {
   padding: 2%;
   background-color: #144d99;
   color: #fff;
+}
+
+.e-btn {
+  padding: 17px 26px;
+  background-color: #edad03;
+  color: #0f458d;
+  font-weight: 600;
+  letter-spacing: 1.1px;
+  text-transform: uppercase;
 }
 
 @media screen and (max-width: 991px) {
