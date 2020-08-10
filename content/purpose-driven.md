@@ -5,7 +5,11 @@ topheading: 'PURPOSE DRIVEN:  "We are in a new age of real estate investing"'
 date: 2020-04-19T13:41:28-07:00
 title: Purpose Driven
 type: pages
-description: Apply to the Shared Housing Solution Housing Model
+description: "As social-preneurs, we are impacting people in need of housing by providing single family homes and apartments. We were founded to eliminate housing insecurity for men and women who are not able to easily obtain housing."
+description: "As social-preneurs, we are impacting people in need of housing by providing single family homes and apartments. We were founded to eliminate housing insecurity for men and women who are not able to easily obtain housing."
+descriptionOG: "As social-preneurs, we are impacting people in need of housing by providing single family homes and apartments. We were founded to eliminate housing insecurity for men and women who are not able to easily obtain housing."
+titleOG: "Purpose Driven"
+imageOG: "/images/faq.jpg"
 ---
 People want to spend their money in a meaningful way to impact society.   As social-preneurs, we are impacting people in need of housing by providing single family homes and apartments.  
 

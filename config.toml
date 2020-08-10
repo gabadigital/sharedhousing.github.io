@@ -1,6 +1,6 @@
 BaseURL = "https://sharedhousingsolutions.com"
 languageCode = "en-us"
-title = "Shared Housing Solution"
+title = "Shared Housing Solutions"
 relativeURLs = true
 disableKinds = ["taxonomy", "taxonomyTerm"]
 

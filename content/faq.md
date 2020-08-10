@@ -5,4 +5,10 @@ summary: " "
 type: "pages"
 layout: "faq"
 description: "FAQ"
+description: Shared Housing Solutions is a safe place to start your new life.
+  Find a good housing and good neighborhood in seconds. Call us anytime
+descriptionOG: Shared Housing Solutions is a safe place to start your new life.
+    Find a good housing and good neighborhood in seconds. Call us anytime
+titleOG: ""
+imageOG: "/images/faq.jpg"
 ---

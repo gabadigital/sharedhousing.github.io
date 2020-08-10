@@ -4,5 +4,9 @@ date: 2020-04-19T10:29:37-07:00
 summary: " "
 type: "pages"
 layout: "founders"
-description: "Sherri and Frank are both the best real estate experts who have helped over 300 people get homes and also helped the homeless across the US"
+description: "Our Founders - Sherri and Frank Candelario, Ph.D are both the best real estate experts who have helped over 300 people get homes and also helped the homeless across the US"
+description: "Our Founders - Sherri and Frank Candelario, Ph.D are both the best real estate experts who have helped over 300 people get homes and also helped the homeless across the US"
+descriptionOG: "Our Founders - Sherri and Frank Candelario, Ph.D are both the best real estate experts who have helped over 300 people get homes and also helped the homeless across the US"
+titleOG: "Founders"
+imageOG: "/images/vid-image.jpg"
 ---

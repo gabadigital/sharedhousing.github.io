@@ -1,15 +1,21 @@
 <head>
   <meta charset="utf-8">
-  <title>{{.Title}}</title>
+  <title>{{.Title}} | {{.Site.Title}} </title>
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="{{.Params.description}}" name="description">
-  <meta content="{{.Params.description}}" property="og:title">
+
+  <meta content="{{.Params.titleOG}} | {{.Site.Title}}" property="og:title">
+  <meta content="{{.Params.descriptionOG}}" property="og:description">
+  <meta content="{{.Params.imageOG}}" property="og:image">
+  <meta content="{{.Params.titleOG}}" property="twitter:title">
+  <meta content="}}.Params.descriptionOG" property="twitter:description">
+  <meta content="{{.Params.imageOG}}" property="twitter:image">
+  <meta property="og:type" content="website">
+  <meta content="summary_large_image" name="twitter:card">
+
   <meta content=".Site.URL" property="og:url" />
   <meta content="Gababadigital" name="generator">
   <meta property="og:site_name" content="Shared Housing Solution" />
-  <style>
-    @media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="5e6bbe7b-3d73-534f-3def-95983cfb0687"] {-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="fc4a14ac-cf6b-e823-21c6-a37db39f5cf0"] {-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="41bdb1da-5b1d-d872-124b-b4dcaf0bdef0"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="d0146be3-f301-82b9-c3f8-14774657ae8c"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="f52e5fb6-bfdf-3ef8-3a41-632849889a21"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="07de7384-36d3-e9b5-f8ab-42d87a76b035"] {opacity:0;-webkit-transform:translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="fc2c22c9-8abd-7c25-3bdd-6b8708ebeb92"] {-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}}
-  </style>
   <link href="/css/snipcart.css" rel="stylesheet" type="text/css">
   <link href="/css/customcode.css" rel="stylesheet" type="text/css">
   <link href="/css/normalize.css" rel="stylesheet" type="text/css">
