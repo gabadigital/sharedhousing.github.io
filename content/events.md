@@ -1,5 +1,5 @@
 ---
-title: "Housing model | Shared Housing Solution"
+title: "Events"
 summary: " "
 type: "pages"
 layout: "events"
