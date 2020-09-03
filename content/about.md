@@ -1,16 +1,30 @@
 ---
+summary: " "
+layout: abouttemplate
+intro: try
+topheading: About us
+date: 2020-04-19T13:41:28-07:00
 title: About
-description: This is a simple blog
+type: pages
+description: Our services include locating and identifying properties in neighborhoods that are undervalued but stable. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios.
+description: Our services include locating and identifying properties in neighborhoods that are undervalued but stable. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios.
+descriptionOG: Our services include locating and identifying properties in neighborhoods that are undervalued but stable. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios.
+titleOG: ""
+imageOG: "/images/faq.jpg"
 ---
-<<<<<<< HEAD
-
 ### Our Mission:  We house people who deserve good homes in shared housing:   veterans, women, moms, the elderly and foster kids.
 
-Our services include locating and identifying properties in neighborhoods that are undervalued but stable. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios. Shared Housing Solutions is here to help you with your real estate investment with expertise in how to develop certified shared housing models.
+Shared Housing Solutions was founded in Seattle, Washington to purchase single family homes for a shared housing model in great and safe neighborhoods.  Our houses are beautifully renovated and poised for appreciation and growth.   Seattle has consistently ranked as one of the fastest growing state economies, a hub of technology and innovation and frequently ranks nationally as one of the highest real estate markets for both appreciation and demand.
 
-As soon as the property is ready, we screen and identify the best residents to occupy the house, minimizing losses from openings and making sure there’s a steady stream of income. At any time, we have contracts with state and local agencies, the Veterans Administration and local drug courts to provide residents.
+We serve clients  with housing insecurity issues.  We formed Kate’s House Foundation (www.kateshousefoundation) to serve women.   We have expanded to house disabled veterans, men and women with justice issues, people in recovery, foster kids, mothers, adults aging in place, and people in drug court.    Because our model is shared spaces in appreciating homes, we achieve double to triple returns paid for by state and government contracts.  We are experts on shared housing and have a national brand.  We have a management team that provides client support and maintenance.  Your investment is passive.    We do all of the work and you have the benefit of both a financial return and knowledge that you are a socialpreneur changing lives.
 
-* **The problem:**  There is a lack of affordable housing for some of the most deserving members of society.  
+We are seeking syndication partners to expand in Seattle Washington and Washington state.
+
+Our services include locating and identifying properties in neighborhoods that are appreciating.  Shared Housing Solutions is here to help you with your real estate investment with expertise in how to develop certified shared housing models.
+
+As soon as the property is ready, we screen and identify the best residents to occupy the house.    At any time, we have contracts with state and local agencies, the Veterans Administration and local drug courts to provide residents
+
+* **The problem:**  How do you passively invest in real estate in appreciating neighborhoods and obtain a significant return?  
 * **How does an investor achieve high returns** using a model of socially responsible investing?
 * Can an investor make a difference in society by investing in professionally managed single-family homes?
 * The investor is solving the problem of housing veterans, disadvantaged women and people in recovery achieving triple returns provided by contracts with federal and state governments.
@@ -36,6 +50,3 @@ As soon as the property is ready, we screen and identify the best residents to o
 * We use density (two beds per bedroom 4-5 bedrooms for a house for 8 to ten beds to double or triple cash flow.
 * We buy a great house in a high value neighborhood resulting in superior cash flow and appreciation.
 * Single family homes are easy to market and exit.
-=======
-Test let's see
->>>>>>> 4410c9a32c889039b5eff1fffd59c92c63a3e41b
