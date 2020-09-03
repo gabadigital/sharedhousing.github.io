@@ -1,17 +1,8 @@
 ---
-summary: " "
-layout: abouttemplate
-intro: try
-topheading: About us
-date: 2020-04-19T13:41:28-07:00
 title: About
-type: pages
-description: Our services include locating and identifying properties in neighborhoods that are undervalued but stable. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios.
-description: Our services include locating and identifying properties in neighborhoods that are undervalued but stable. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios.
-descriptionOG: Our services include locating and identifying properties in neighborhoods that are undervalued but stable. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios.
-titleOG: ""
-imageOG: "/images/faq.jpg"
+description: This is a simple blog
 ---
+<<<<<<< HEAD
 
 ### Our Mission:  We house people who deserve good homes in shared housing:   veterans, women, moms, the elderly and foster kids.
 
@@ -45,3 +36,6 @@ As soon as the property is ready, we screen and identify the best residents to o
 * We use density (two beds per bedroom 4-5 bedrooms for a house for 8 to ten beds to double or triple cash flow.
 * We buy a great house in a high value neighborhood resulting in superior cash flow and appreciation.
 * Single family homes are easy to market and exit.
+=======
+Test let's see
+>>>>>>> 4410c9a32c889039b5eff1fffd59c92c63a3e41b
