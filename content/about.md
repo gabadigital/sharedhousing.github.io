@@ -12,6 +12,7 @@ descriptionOG: Our services include locating and identifying properties in neigh
 titleOG: ""
 imageOG: "/images/faq.jpg"
 ---
+
 ### Our Mission:  We house people who deserve good homes in shared housing:   veterans, women, moms, the elderly and foster kids.
 
 Our services include locating and identifying properties in neighborhoods that are undervalued but stable. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios. Shared Housing Solutions is here to help you with your real estate investment with expertise in how to develop certified shared housing models.
