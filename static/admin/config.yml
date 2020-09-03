@@ -47,6 +47,7 @@ collections:
         fields:
           - {label: Title, name: title, widget: string}
           - {label: body, name: body, widget: markdown}
+          - {label: description, name:description, widget:string}
 
       - label: "Purpose Driven"
         name: "purpose-driven"
