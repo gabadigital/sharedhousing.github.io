@@ -12,7 +12,7 @@ descriptionOG: Our services include locating and identifying properties in neigh
 titleOG: ""
 imageOG: "/images/faq.jpg"
 ---
-### Our Mission:  We house people who deserve good homes in shared housing:   veterans, women, moms, the elderly and foster kids.
+### OUR MISSION: WE INVEST IN SHARED HOUSING: VETERANS, WOMEN, MOMS, THE ELDERLY AND FOSTER KIDS WITH PAYMENTS BY STATE AND FEDERAL FUNDS. WE SOLVE HOUSING INSECURITY AND PROVIDE A PASSIVE INVESTMENT VEHICLE FOR SOCIALLY MINDED INVESTORS.
 
 Shared Housing Solutions was founded in Seattle, Washington to purchase single family homes for a shared housing model in great and safe neighborhoods.  Our houses are beautifully renovated and poised for appreciation and growth.   Seattle has consistently ranked as one of the fastest growing state economies, a hub of technology and innovation and frequently ranks nationally as one of the highest real estate markets for both appreciation and demand.
 
