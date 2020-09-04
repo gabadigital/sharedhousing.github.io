@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--  This site was created in Webflow. http://www.webflow.com  -->
 <!--  Last Published: Sat Apr 18 2020 00:33:41 GMT+0000 (Coordinated Universal Time)  -->
-<html data-wf-page="5f14bf339f6473d0510a368e" data-wf-site="5e90aee51bff737dcf863df0">
+<html data-wf-page="{{.Params.dataId}}" data-wf-site="5e90aee51bff737dcf863df0">
 {{ partial "header" . }}
 
 <body class="body">
@@ -45,6 +45,24 @@
     <!-- secion ends here -->
 
   </div>
+  <div style="display:none" class="reg-event-holder">
+<div class="form-block w-form">
+<div data-w-id="6c393d43-b882-46c8-8e95-03ebca9d915c" class="close-reg">
+<div>Close x</div>
+</div>
+<form id="email-form" action="https://getform.io/f/38db29a1-f07a-4722-9ff2-d9f1067e07d3" name="email-form" data-name="Email Form">
+<h2 class="h3-reg">Registration</h2>
+<div class="form-control"><label for="name-2" class="field-reg">Select Date</label><select id="field" name="field" class="w-select"><option value="October 6">October 6, 2020 at Noon PST</option><option value="October 8">October 8, 2020 at 3pm PST</option><option value="October 10">October 10, 2020 at 11AM PST</option></select></div>
+<div class="form-control"><label for="name" class="field-reg">Full Name</label><input type="text" class="input_form_style w-input" maxlength="256" name="name" data-name="Name" placeholder="Full name" id="name" required=""></div>
+<div class="form-control"><label for="Email-Address" class="field-reg">Email Address</label><input type="email" class="input_form_style w-input" maxlength="256" name="Email-Address" data-name="Email Address" placeholder="Email" id="Email-Address" required=""></div><input type="submit" value="Submit" data-wait="Please wait..." class="reg-now-btn w-button"></form>
+<div class="w-form-done">
+<div>Thank you! Your submission has been received!</div>
+</div>
+<div class="w-form-fail">
+<div>Oops! Something went wrong while submitting the form.</div>
+</div>
+</div>
+</div>
   <!-- end of section code -->
   {{ partial "footerscript" .}}
   <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="MGM0ZmEzZGUtODQ3Yy00Mzc3LTliYzUtYmMwYTk2MGRiZjNlNjM3MzE5MDUwNTMyNzI3NzQw"></script>
