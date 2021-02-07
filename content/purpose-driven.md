@@ -1,6 +1,6 @@
 ---
 summary: " "
-layout: abouttemplate
+layout: purpose-driven
 topheading: 'PURPOSE DRIVEN:  "We are in a new age of real estate investing"'
 date: 2020-04-19T13:41:28-07:00
 title: Purpose Driven
