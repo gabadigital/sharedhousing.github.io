@@ -1,0 +1,17 @@
+<div class="slide w-slide">
+  <div class="sha-items">
+    <div class="img-holder-sha"><img src="/images/{{.Params.image}}"  loading="lazy" alt="" class="img-sha">
+      <div class="abs-sha-img"></div>
+    </div>
+    <div class="item-sha-content">
+      <div class="dates-events">
+        <div>{{.Params.event_date}}</div>
+      </div>
+      <h3 class="e-event-head">{{.Params.event_name}}</h3>
+      <p class="p-shared-housing">{{.Content}}</p>
+      <a href="{{.Params.url_page}}" class="reg-now-btn w-inline-block" target = "_blank">
+        <div>register now</div>
+      </a>
+    </div>
+  </div>
+</div>

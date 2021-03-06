@@ -6,3 +6,122 @@ ul li{ color:black !important;}
 .rich-text > ul li {color:#000f22 !important;}
 
 @media (min-width:992px) {html.w-mod-js:not(.w-mod-ix) [data-w-id="5e6bbe7b-3d73-534f-3def-95983cfb0687"] {-webkit-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(100%, 0, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="fc4a14ac-cf6b-e823-21c6-a37db39f5cf0"] {-webkit-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 40PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="41bdb1da-5b1d-d872-124b-b4dcaf0bdef0"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="d0146be3-f301-82b9-c3f8-14774657ae8c"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="f52e5fb6-bfdf-3ef8-3a41-632849889a21"] {opacity:0;}html.w-mod-js:not(.w-mod-ix) [data-w-id="07de7384-36d3-e9b5-f8ab-42d87a76b035"] {opacity:0;-webkit-transform:translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 30%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);}html.w-mod-js:not(.w-mod-ix) [data-w-id="fc2c22c9-8abd-7c25-3bdd-6b8708ebeb92"] {-webkit-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-moz-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);-ms-transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);transform:translate3d(0, 100%, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 0);opacity:0;}}
+
+.b-sha-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+
+.img-holder-sha {
+  position: relative;
+}
+
+.img-sha {
+  width: 100%;
+  height: 189px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.abs-sha-img {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  background-color: rgba(2, 28, 63, 0.5);
+}
+
+.item-sha-content {
+  padding: 8%;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #a1afc2;
+  background-color: #fff;
+}
+
+.sha-slider {
+  height: auto;
+  margin-bottom: 81px;
+  padding-top: 31px;
+  padding-bottom: 31px;
+  background-color: transparent;
+}
+
+.p-shared-housing {
+  margin-top: 18px;
+  font-size: 1em;
+}
+
+.slide {
+  width: 30%;
+  max-width: 300px;
+  margin-right: 4%;
+}
+
+.slide-nav {
+  top: 111%;
+}
+
+.dates-events {
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #123563;
+  color: #edad03;
+  font-weight: 600;
+  text-align: center;
+}
+
+.kil {
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: auto;
+  width: 30px;
+  height: 30px;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.kil._2 {
+  margin-right: 21px;
+}
+
+.kil._1 {
+  margin-right: 55px;
+}
+
+.icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 0px;
+  margin-left: 0px;
+  padding: 4px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #0f458d;
+  color: #ebebeb;
+  font-size: 0.7em;
+}
+
+.icon.right {
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
