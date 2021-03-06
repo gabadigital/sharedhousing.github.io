@@ -24,7 +24,7 @@ collections:
       preview: false
     fields:
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Date of event', date: 'Date', widget: 'DateTime' }
+      - { label: 'Date of event', name: 'Date', widget: 'DateTime' }
       - { label: 'Event Title', name: 'event_name', widget: 'text' }
       - { label: 'Event Date', name: 'event_date', widget: 'text' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
