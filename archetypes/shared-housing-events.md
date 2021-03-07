@@ -6,5 +6,6 @@ event_name: " "
 event_date: ""
 headless: true
 image: " "
+alt: " "
 url_page : " "
 ---
