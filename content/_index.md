@@ -8,4 +8,5 @@ description: Shared Housing Solutions is a safe place to help your real estate i
 descriptionOG: Shared Housing Solutions is a safe place to help your real estate investment with expertise in how to develop certified shared housing models. We work with investors from Washington and the US and help them locate prime properties that will start or grow their real estate portfolios.
 titleOG: "Home"
 imageOG: "/images/faq.jpg"
+bgImage: "/images/house.jpg"
 ---

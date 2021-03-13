@@ -252,7 +252,7 @@ li {
   z-index: 1;
   background-color: #0f458d;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(15, 69, 141, 0.93)), to(rgba(15, 69, 141, 0.93))), url('../images/houses.jpg');
-  background-image: linear-gradient(180deg, rgba(15, 69, 141, 0.93), rgba(15, 69, 141, 0.93)), url('../images/houses.jpg');
+  
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
