@@ -34,7 +34,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [[menu.mainmenu]]
          identifier="Registration"
           name="registration"
-          url = "/registration"
+          url = "https://sharedhousingacademy.com/"
           weight = 5
 
 #Logo put here
