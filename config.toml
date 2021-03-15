@@ -33,7 +33,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
 
   [[menu.mainmenu]]
          identifier="Academy"
-          name="Housing Academy"
+          name="Shared Housing Academy"
           url = "https://sharedhousingacademy.com/"
           alt= "_blank"
           weight = 5
