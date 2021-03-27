@@ -4,7 +4,7 @@ headless: true
 name: Sherri Candelario, Ph.D.
 image: sherri-pic.jpg
 ---
-Sherri Candelario, Ph.D. is the **co-founder of [Kate’s House Foundation™](https://www.kateshousefoundation.org/)**, **the first nationally accredited sober living homes in Washington state**.  Kate’s House are the first accredited homes to have medically approved treatments for co-occurring disorders of mental health and substance use disorder.  Sherri earned her doctorate in pharmacology from the University of Washington Medical School. Sherri is an expert on how opioids work in the brain and has co-authored many peer reviewed research papers on how opioids function and the methods of blocking the drug.   
+**Sherri Candelario, Ph.D.** is the **co-founder of [Kate’s House Foundation™](https://www.kateshousefoundation.org/)**, **the first nationally accredited sober living homes in Washington state**.  Kate’s House are the first accredited homes to have medically approved treatments for co-occurring disorders of mental health and substance use disorder.  Sherri earned her doctorate in pharmacology from the University of Washington Medical School. Sherri is an expert on how opioids work in the brain and has co-authored many peer reviewed research papers on how opioids function and the methods of blocking the drug.   
 
 Sherri is a **federally registered patent counsel** and **founded the patent practices in several pioneering biotech companies in Seattle and California**, many that focus on diagnostics.  Seattle is a hub of innovation and Sherri has been a part of developing data driven science for several companies that have gone public.
 
