@@ -1,7 +1,7 @@
 /* this are custom coded css */
 #link_out{text-decoration: none;}
-ul li{ color:black !important;}
-.b-txt-drop-faq > p, li {color:#fff }
+/* ul li{ color:black !important;} */
+.b-txt-drop-faq li {color: #fff }
 .b-faq-invest > li {color:#fff;}
 .rich-text > ul li {color:#000f22 !important;}
 
