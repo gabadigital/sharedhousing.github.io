@@ -1,5 +1,5 @@
 ---
-title: "FAQ | Shared Housing Solution"
+title: "FAQ"
 date: 2020-04-19T10:29:37-07:00
 summary: " "
 type: "pages"
