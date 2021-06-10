@@ -1,5 +1,7 @@
 ---
 title: founders
+type: pages
+layout: founders
 topheading: How to Build a Real Estate Portfolio,  End Housing Insecurity with
   Shared Housing, Gain Financial Freedom and Change the World
 ---
