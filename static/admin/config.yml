@@ -33,7 +33,6 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
 
-
   - name: 'faq'
     label: 'Faq'
     folder: 'content/faq-2/'
