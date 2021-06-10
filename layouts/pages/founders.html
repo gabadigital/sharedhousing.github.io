@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-          <h1 class="e-toph1 toppages">Meet the Founders</h1>
+          <h1 class="e-toph1 toppages">{{.Params.topheading}}</h1>
 
           <div class="b-wrapper-pages">
 
@@ -19,7 +19,7 @@
           </div>
           {{end}} -->
 
-          <div class="rich-text w-richtext">          
+          <div class="rich-text w-richtext">
             {{.Content}}
           </div>
 
