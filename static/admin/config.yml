@@ -74,3 +74,11 @@ collections:
           - {label: Title, name: title, widget: string}
           - {label: Heading of Page, name: topheading, widget: string}
           - {label: body, name: body, widget: markdown}
+
+      - label: "Founders"
+        name: "Founders"
+        file: "/content/founders.md"
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Heading of Page, name: topheading, widget: string}
+          - {label: body, name: body, widget: markdown}
