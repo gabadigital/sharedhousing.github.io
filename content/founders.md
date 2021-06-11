@@ -2,8 +2,7 @@
 title: founders
 type: pages
 layout: founders
-topheading: How to Build a Real Estate Portfolio,  End Housing Insecurity with
-  Shared Housing, Gain Financial Freedom and Change the World
+topheading: "Founders"
 ---
 Frank and Sherri Candelario, Ph.D. had a dream of ending housing insecurity for the vulnerable. They realized that the private sector can buy real estate  and have the house payments made by state and federal dollars.
 
