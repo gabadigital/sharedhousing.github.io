@@ -2,7 +2,7 @@
 title: founders
 type: pages
 layout: founders
-topheading: Founders
+topheading: Meet the Founders
 ---
 Frank and Sherri Candelario, Ph.D. had a dream of ending housing insecurity for the vulnerable. They realized that the private sector can buy real estate  and have the house payments made by state and federal dollars.
 
