@@ -1,24 +1,8 @@
 {{ define "main" }}
 
-          <h1 class="e-toph1 toppages">Meet our founders</h1>
+          <h1 class="e-toph1 toppages">{{.Params.topheading}}</h1>
 
           <div class="b-wrapper-pages">
-             {{$founderscontent := .Site.GetPage "/founders-content"}}
-             {{$reusablefounders := $founderscontent.Resources.ByType "page"}}
-             {{range $reusablefounders}}
-             <div class="b-founders-wrapper">
-               <div class="founder_pic_wrap"><img src="/images/{{.Params.image}}"  sizes="(max-width: 479px) 51vw, (max-width: 767px) 38vw, (max-width: 991px) 100vw, 19vw" alt="" class="image-5"></div>
-               <div class="founders_content">
-                 <div class="b-founders-head">
-                   <div class="e-line-founder-head"></div>
-                   <h2>{{.Params.name}}</h2>
-                 </div>
-                 <p>{{.Content}}</p>
-               </div>
-             </div>
-             {{end}}
-
-            <h1 class="e-toph1 toppages">{{.Params.topheading}}</h1>
             <div class="rich-text w-richtext">
 
               {{.Content}}
