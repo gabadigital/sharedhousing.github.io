@@ -31,12 +31,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
       url = "/faq"
       weight = 4
 
-  [[menu.mainmenu]]
-         identifier="Academy"
-          name="Shared Housing Academy"
-          url = "https://sharedhousingacademy.com/"
-          alt= "_blank"
-          weight = 5
+
 
 #Logo put here
 [params.logo]
